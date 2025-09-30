@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: ${env:qa}
+  cloud:
+    config:
+      enabled: false

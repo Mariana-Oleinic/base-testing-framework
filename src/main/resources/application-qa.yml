@@ -1,0 +1,34 @@
+service:
+  catalog:
+    url: https://...
+  search:
+    url: https://...
+
+
+### TEST DATA ###
+testdata:
+  products:
+    default-product:
+      partNumber: 100001199
+    warranty:
+      partNumber: 130488899
+      seoToken: 1-year-service-plan
+      wcsCatentryId: 14824
+      locations:
+        default-location:
+          storeId: 1565
+          zoneId: 53
+        alternative-location:
+          storeId: 104
+          zoneId: 23
+    assembly:
+      partNumber: 127753799
+    giftCard:
+      partNumber: 8750057
+    clearance:
+      partNumber: 128319099
+      seoToken: como-vintage-womens-short-ruffle-sleeve-lace-combo-galiano-top-z2u014tsc
+      locations:
+        default-location:
+          storeId: 1565
+          zoneId: 53
